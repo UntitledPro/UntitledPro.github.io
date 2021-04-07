@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>风的博客</title>
+  <icon>https://www.gravatar.com/avatar/00ffb5363f247db4d842bff44780be12</icon>
+  <subtitle>碎碎念生活的鸡毛蒜皮</subtitle>
+  <link href="http://untitledpro.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://untitledpro.github.io/"/>
+  <updated>2021-03-27T12:58:05.986Z</updated>
+  <id>http://untitledpro.github.io/</id>
+  
+  <author>
+    <name>Joe Done</name>
+    <email>1092815445@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>blog</title>
+    <link href="http://untitledpro.github.io/2021/03/18/blog/"/>
+    <id>http://untitledpro.github.io/2021/03/18/blog/</id>
+    <published>2021-03-18T09:41:49.000Z</published>
+    <updated>2021-03-27T12:58:05.986Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一些代码过程中的总结"><a href="#一些代码过程中的总结" class="headerlink" title="一些代码过程中的总结"></a>一些代码过程中的总结</h2><ol><li><p><code>nn.Parameter(requires_grad=True)</code>和<code>torch.Tensor(requires_grad=True)</code>的功能是相同的，都是创建了一个可学习的向量，但是不同之处在于，<code>nn.Parameter</code>所创建的是一个<code>nn.Module</code>的子类，就像是<code>nn.layer</code>一样，是包含在模型结构中的，但是<code>torch.Tensor</code>只是创建了一个向量</p></li><li><p>之所以经常用<code>tensor.view()</code>而非<code>tensor.reshape</code>，是因为view实在原有 tensor 上操作，不会占用多余的内存，而 reshape 是创建一个新的 tensor 在大量使用reshape 的情况下，可能会导致内存不足</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一些代码过程中的总结&quot;&gt;&lt;a href=&quot;#一些代码过程中的总结&quot; class=&quot;headerlink&quot; title=&quot;一些代码过程中的总结&quot;&gt;&lt;/a&gt;一些代码过程中的总结&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;nn.Parameter(requires_g</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://untitledpro.github.io/2021/03/17/hello-world/"/>
+    <id>http://untitledpro.github.io/2021/03/17/hello-world/</id>
+    <published>2021-03-17T13:15:54.921Z</published>
+    <updated>2021-03-17T13:15:54.921Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
