@@ -6,7 +6,7 @@
   <link href="http://untitledpro.github.io/atom.xml" rel="self"/>
   
   <link href="http://untitledpro.github.io/"/>
-  <updated>2021-04-07T09:26:01.481Z</updated>
+  <updated>2021-04-07T11:16:57.915Z</updated>
   <id>http://untitledpro.github.io/</id>
   
   <author>
@@ -21,18 +21,16 @@
     <link href="http://untitledpro.github.io/2021/03/18/blog/"/>
     <id>http://untitledpro.github.io/2021/03/18/blog/</id>
     <published>2021-03-18T09:41:49.000Z</published>
-    <updated>2021-04-07T09:26:01.481Z</updated>
+    <updated>2021-04-07T11:16:57.915Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一些代码过程中的总结"><a href="#一些代码过程中的总结" class="headerlink" title="一些代码过程中的总结"></a>一些代码过程中的总结</h2><ol><li><p><code>nn.Parameter(requires_grad=True)</code>和<code>torch.Tensor(requires_grad=True)</code>的功能是相同的，都是创建了一个可学习的向量，但是不同之处在于，<code>nn.Parameter</code>所创建的是一个<code>nn.Module</code>的子类，就像是<code>nn.layer</code>一样，是包含在模型结构中的，但是<code>torch.Tensor</code>只是创建了一个向量</p></li><li><p>之所以经常用<code>tensor.view()</code>而非<code>tensor.reshape</code>，是因为view实在原有 tensor 上操作，不会占用多余的内存，而 reshape 是创建一个新的 tensor 在大量使用reshape 的情况下，可能会导致内存不足</p></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;一些代码过程中的总结&quot;&gt;&lt;a href=&quot;#一些代码过程中的总结&quot; class=&quot;headerlink&quot; title=&quot;一些代码过程中的总结&quot;&gt;&lt;/a&gt;一些代码过程中的总结&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;nn.Parameter(requires_g</summary>
-      
+    <content type="html"><![CDATA[<!-- excerpt --><h2 id="一些代码过程中的总结"><a href="#一些代码过程中的总结" class="headerlink" title="一些代码过程中的总结"></a>一些代码过程中的总结</h2><ol><li><p><code>nn.Parameter(requires_grad=True)</code>和<code>torch.Tensor(requires_grad=True)</code>的功能是相同的，都是创建了一个可学习的向量，但是不同之处在于，<code>nn.Parameter</code>所创建的是一个<code>nn.Module</code>的子类，就像是<code>nn.layer</code>一样，是包含在模型结构中的，但是<code>torch.Tensor</code>只是创建了一个向量</p></li><li><p>之所以经常用<code>tensor.view()</code>而非<code>tensor.reshape</code>，是因为view实在原有 tensor 上操作，不会占用多余的内存，而 reshape 是创建一个新的 tensor 在大量使用reshape 的情况下，可能会导致内存不足</p></li></ol>]]></content>
     
     
+    <summary type="html">&lt;p&gt;anything&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Pytorch" scheme="http://untitledpro.github.io/categories/Pytorch/"/>
     
     
     <category term="Essay" scheme="http://untitledpro.github.io/tags/Essay/"/>

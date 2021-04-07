@@ -10,6 +10,8 @@
     <meta name="author" content="Joe Done">
     
     
+        <link rel="icon" href="http://UntitledPro.github.io/assets/images/cover-v1.2.0.jpg">
+    
     
         
             <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
@@ -37,7 +39,7 @@
     
     <!--STYLES-->
     
-<link rel="stylesheet" href="/assets/css/style-svyambxbddyotjabf2jc8ev1uyfhuvozqebe7ursatrueomazsi6agvvmnc1.min.css">
+<link rel="stylesheet" href="/assets/css/style-yz5qpffk8tplhwpltzy5uomrlzqkhgnyooj5blygmtldbzzelt4kv5nkpxbv.min.css">
 
     <!--STYLES END-->
     
@@ -52,13 +54,7 @@
             <!-- Define author's picture -->
 
 
-    
-        
-            
-        
-    
-
-<header id="header" data-behavior="3">
+<header id="header" data-behavior="1">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <div class="header-title">
         <a
@@ -72,13 +68,13 @@
     
         
             <a
-                class="header-right-picture "
-                href="#about"
-                aria-label="打开链接: /#about"
+                class="header-right-icon open-algolia-search"
+                href="#search"
+                aria-label="打开链接: /#search"
             >
         
         
-            <img class="header-picture" src="/assets/images/avatar.jpg" alt="作者的图片"/>
+            <i class="fa fa-search fa-lg"></i>
         
         </a>
     
@@ -91,7 +87,7 @@
         
     
 
-<nav id="sidebar" data-behavior="3">
+<nav id="sidebar" data-behavior="1">
     <div class="sidebar-container">
         
             <div class="sidebar-profile">
@@ -333,14 +329,14 @@
 </nav>
 
             
-            <div id="main" data-behavior="3"
+            <div id="main" data-behavior="1"
                  class="
                         hasCoverMetaIn
                         ">
                 <section class="postShorten-group main-content-wrap">
     
     
-    <article class="postShorten postShorten--thumbnailimg-bottom">
+    <article class="postShorten postShorten--thumbnailimg-right">
         <div class="postShorten-wrap">
             
             <div class="postShorten-header">
@@ -362,37 +358,41 @@
     	
     </time>
     
+        <span>发布在 </span>
+        
+    <a class="category-link" href="/categories/Pytorch/">Pytorch</a>
+
+
+    
 </div>
 
             </div>
             
-                <div class="postShorten-content">
-                    <h2 id="一些代码过程中的总结"><a href="#一些代码过程中的总结" class="headerlink" title="一些代码过程中的总结"></a>一些代码过程中的总结</h2><ol>
-<li><p><code>nn.Parameter(requires_grad=True)</code>和<code>torch.Tensor(requires_grad=True)</code>的功能是相同的，都是创建了一个可学习的向量，但是不同之处在于，<code>nn.Parameter</code>所创建的是一个<code>nn.Module</code>的子类，就像是<code>nn.layer</code>一样，是包含在模型结构中的，但是<code>torch.Tensor</code>只是创建了一个向量</p>
-</li>
-<li><p>之所以经常用<code>tensor.view()</code>而非<code>tensor.reshape</code>，是因为view实在原有 tensor 上操作，不会占用多余的内存，而 reshape 是创建一个新的 tensor 在大量使用reshape 的情况下，可能会导致内存不足</p>
-</li>
-</ol>
-
+                <div class="postShorten-excerpt">
+                    <p>anything</p>
                     
+                        <a
+                            href="/2021/03/18/blog/"
+                            class="postShorten-excerpt_link link"
+                            aria-label=": blog"
+                        >
+                            阅读全文
+                        </a>
                         
-
-
-                    
-                    
-                        <p>
-                            <a
-                                href="/2021/03/18/blog/#post-footer"
-                                class="postShorten-excerpt_link link"
-                                aria-label=""
-                            >
-                                评论和共享
-                            </a>
-                        </p>
                     
                 </div>
             
         </div>
+        
+            <a
+                href="/2021/03/18/blog/"
+                aria-label=": blog"
+            >
+                <div class="postShorten-thumbnailimg">
+                    <img alt="" src="http://untitledpro.github.io/2021/03/18/blog/avatar.jpg"/>
+                </div>
+            </a>
+            
         
     </article>
     
@@ -557,6 +557,16 @@
                 
                 <div class="media">
                     
+                    <div class="media-left">
+                        <a
+                            class="link-unstyled"
+                            href="http://untitledpro.github.io/2021/03/18/blog/"
+                            aria-label=": blog"
+                        >
+                            <img class="media-image" src="http://untitledpro.github.io/2021/03/18/blog/avatar.jpg" width="90" height="90"/>
+                        </a>
+                    </div>
+                    
                     <div class="media-body">
                         <a
                             class="link-unstyled"
@@ -572,7 +582,7 @@
                                 
                             </span>
                         </span>
-                        <div class="media-content hide-xs font-merryweather"></div>
+                        <div class="media-content hide-xs font-merryweather"><p>anything</p></div>
                     </div>
                     <div style="clear:both;"></div>
                     <hr>
@@ -596,7 +606,7 @@
 <div id="cover" style="background-image:url('/assets/images/cover-v1.2.0.jpg');"></div>
         <!--SCRIPTS-->
 
-<script src="/assets/js/script-gcya1t6019ttv5j5sgffxvaqv6ogrgol7mlacqntdjwfhkcjqcqgahkp9kfi.min.js"></script>
+<script src="/assets/js/script-45sg1ohiownu8lfeb0gkw89rsix0dmkhqanjsqmzztstf8zbdhuq2sql0cks.min.js"></script>
 
 <!--SCRIPTS END-->
 
