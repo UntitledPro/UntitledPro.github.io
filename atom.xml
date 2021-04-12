@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>风的博客</title>
+  <title>wind&#39;s blog</title>
   
-  <subtitle>碎碎念生活的鸡毛蒜皮</subtitle>
+  
   <link href="https://untitledpro.github.io/atom.xml" rel="self"/>
   
   <link href="https://untitledpro.github.io/"/>
-  <updated>2021-04-12T09:03:09.169Z</updated>
+  <updated>2021-04-12T09:54:28.070Z</updated>
   <id>https://untitledpro.github.io/</id>
   
   <author>
@@ -21,15 +21,21 @@
     <link href="https://untitledpro.github.io/2021/03/18/blog/"/>
     <id>https://untitledpro.github.io/2021/03/18/blog/</id>
     <published>2021-03-18T09:41:49.607Z</published>
-    <updated>2021-04-12T09:03:09.169Z</updated>
+    <updated>2021-04-12T09:54:28.070Z</updated>
     
-    <content type="html"><![CDATA[<p>什么也没有.jpg</p><span id="more"></span><h2 id="一些代码过程中的总结"><a href="#一些代码过程中的总结" class="headerlink" title="一些代码过程中的总结"></a>一些代码过程中的总结</h2><ol><li><p><code>nn.Parameter(requires_grad=True)</code>和<code>torch.Tensor(requires_grad=True)</code>的功能是相同的，都是创建了一个可学习的向量，但是不同之处在于，<code>nn.Parameter</code>所创建的是一个<code>nn.Module</code>的子类，就像是<code>nn.layer</code>一样，是包含在模型结构中的，但是<code>torch.Tensor</code>只是创建了一个向量</p></li><li><p>之所以经常用<code>tensor.view()</code>而非<code>tensor.reshape</code>，是因为view实在原有 tensor 上操作，不会占用多余的内存，而 reshape 是创建一个新的 tensor 在大量使用reshape 的情况下，可能会导致内存不足</p></li></ol><div class="justified-gallery"><p><img src="/hexo-theme-icarus/gallery/animals/elephant.jpeg" alt="Elephant"><br><img src="/hexo-theme-icarus/gallery/animals/dog.jpeg" alt="Dog"><br><img src="/hexo-theme-icarus/gallery/animals/birds.jpeg" alt="Birds"><br><img src="/hexo-theme-icarus/gallery/animals/fox.jpeg" alt="Fox"><br><img src="/hexo-theme-icarus/gallery/animals/horse.jpeg" alt="Horse"><br><img src="/hexo-theme-icarus/gallery/animals/leopard.jpeg" alt="Leopard"></p></div><!-- comment --><!--PC版--><div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div><script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script><script type="text/javascript">window.changyan.api.config({appid: 'cyvoWBcYh',conf: 'prod_82fb399b42af278fa503f42fe4c11ab1'});</script><!-- share button --><script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=607409f7a784de0012cc7bda&product=inline-share-buttons" async="async"></script>]]></content>
+    <content type="html"><![CDATA[<p>什么也没有.jpg</p><span id="more"></span><h2 id="一些代码过程中的总结"><a href="#一些代码过程中的总结" class="headerlink" title="一些代码过程中的总结"></a>一些代码过程中的总结</h2><ol><li><p><code>nn.Parameter(requires_grad=True)</code>和<code>torch.Tensor(requires_grad=True)</code>的功能是相同的，都是创建了一个可学习的向量，但是不同之处在于，<code>nn.Parameter</code>所创建的是一个<code>nn.Module</code>的子类，就像是<code>nn.layer</code>一样，是包含在模型结构中的，但是<code>torch.Tensor</code>只是创建了一个向量</p></li><li><p>之所以经常用<code>tensor.view()</code>而非<code>tensor.reshape</code>，是因为view实在原有 tensor 上操作，不会占用多余的内存，而 reshape 是创建一个新的 tensor 在大量使用reshape 的情况下，可能会导致内存不足</p></li></ol><!-- Gallary --><!-- <div class="justified-gallery">![Elephant](/hexo-theme-icarus/gallery/animals/elephant.jpeg)![Dog](/hexo-theme-icarus/gallery/animals/dog.jpeg)![Birds](/hexo-theme-icarus/gallery/animals/birds.jpeg)![Fox](/hexo-theme-icarus/gallery/animals/fox.jpeg)![Horse](/hexo-theme-icarus/gallery/animals/horse.jpeg)![Leopard](/hexo-theme-icarus/gallery/animals/leopard.jpeg)</div> --><!-- comment --><!--PC版--><div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div><script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script><script type="text/javascript">window.changyan.api.config({appid: 'cyvoWBcYh',conf: 'prod_82fb399b42af278fa503f42fe4c11ab1'});</script><!-- share button --><script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=607409f7a784de0012cc7bda&product=inline-share-buttons" async="async"></script>]]></content>
     
     
     <summary type="html">&lt;p&gt;什么也没有.jpg&lt;/p&gt;</summary>
     
     
     
+    <category term="Pytorch" scheme="https://untitledpro.github.io/categories/Pytorch/"/>
+    
+    
+    <category term="Essay" scheme="https://untitledpro.github.io/tags/Essay/"/>
+    
+    <category term="Pytorch" scheme="https://untitledpro.github.io/tags/Pytorch/"/>
     
   </entry>
   
