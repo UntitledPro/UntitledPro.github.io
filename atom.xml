@@ -40,22 +40,25 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://untitledpro.github.io/2021/03/17/hello-world/"/>
-    <id>https://untitledpro.github.io/2021/03/17/hello-world/</id>
+    <title>BlogTemplates</title>
+    <link href="https://untitledpro.github.io/2021/03/17/BlogTemplate/"/>
+    <id>https://untitledpro.github.io/2021/03/17/BlogTemplate/</id>
     <published>2021-03-17T13:15:54.921Z</published>
-    <updated>2021-03-17T13:15:54.921Z</updated>
+    <updated>2021-04-12T11:01:58.865Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>这里是简介.jpg</p><span id="more"></span><h2 id="二级目录-1"><a href="#二级目录-1" class="headerlink" title="二级目录-1"></a>二级目录-1</h2><h3 id="三级目录-1-1"><a href="#三级目录-1-1" class="headerlink" title="三级目录-1-1"></a>三级目录-1-1</h3><p>Bulabulabla</p><h3 id="三级目录-1-2"><a href="#三级目录-1-2" class="headerlink" title="三级目录-1-2"></a>三级目录-1-2</h3><p>Bulabulabla</p><h3 id="三级目录-1-3"><a href="#三级目录-1-3" class="headerlink" title="三级目录-1-3"></a>三级目录-1-3</h3><p>Bulabulabla</p><h2 id="二级目录-2"><a href="#二级目录-2" class="headerlink" title="二级目录-2"></a>二级目录-2</h2><p>Bulabulabla</p><h3 id="三级目录-2-1"><a href="#三级目录-2-1" class="headerlink" title="三级目录-2-1"></a>三级目录-2-1</h3><p>Bulabulabla</p><h3 id="三级目录-2-2"><a href="#三级目录-2-2" class="headerlink" title="三级目录-2-2"></a>三级目录-2-2</h3><p>Bulabulabla</p><h3 id="三级目录-2-3"><a href="#三级目录-2-3" class="headerlink" title="三级目录-2-3"></a>三级目录-2-3</h3><p>Bulabulabla</p><h2 id="二级目录-3"><a href="#二级目录-3" class="headerlink" title="二级目录-3"></a>二级目录-3</h2><p>Bulabulabla</p><h3 id="三级目录-3-1"><a href="#三级目录-3-1" class="headerlink" title="三级目录-3-1"></a>三级目录-3-1</h3><p>Bulabulabla</p><h3 id="三级目录-3-2"><a href="#三级目录-3-2" class="headerlink" title="三级目录-3-2"></a>三级目录-3-2</h3><p>Bulabulabla</p><h3 id="三级目录-3-3"><a href="#三级目录-3-3" class="headerlink" title="三级目录-3-3"></a>三级目录-3-3</h3><p>Bulabulabla</p><!-- Gallary --><div class="justified-gallery"><p><img src="https://img0.baidu.com/it/u=2151136234,3513236673&fm=26&fmt=auto&gp=0.jpg" alt="pic1"><br><img src="https://img2.baidu.com/it/u=3206689113,2237998950&fm=26&fmt=auto&gp=0.jpg" alt="pic2"></p></div><!-- comment --><!--PC版--><div id="SOHUCS" sid="blogID"></div><script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script><script type="text/javascript">window.changyan.api.config({appid: 'cyvoWBcYh',conf: 'prod_82fb399b42af278fa503f42fe4c11ab1'});</script><!-- share button --><script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=607409f7a784de0012cc7bda&product=inline-share-buttons" async="async"></script>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <summary type="html">&lt;p&gt;这里是简介.jpg&lt;/p&gt;</summary>
     
     
     
+    <category term="Templates" scheme="https://untitledpro.github.io/categories/Templates/"/>
+    
+    <category term="Blog" scheme="https://untitledpro.github.io/categories/Templates/Blog/"/>
+    
+    
+    <category term="Templates" scheme="https://untitledpro.github.io/tags/Templates/"/>
     
   </entry>
   
