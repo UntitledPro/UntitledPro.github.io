@@ -11378,7 +11378,7 @@ figure.highlight .section {
   }
   .widget.card#toc .menu {
     padding: 1.5rem;
-    max-height: calc(100vh - 1.5rem);
+    max-height: calc(100vh - 2rem);
     overflow-y: auto;
   }
   #toc-mask {
