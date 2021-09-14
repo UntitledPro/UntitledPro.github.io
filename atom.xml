@@ -6,7 +6,7 @@
   <link href="https://untitledpro.github.io/atom.xml" rel="self"/>
   
   <link href="https://untitledpro.github.io/"/>
-  <updated>2021-09-12T10:49:05.371Z</updated>
+  <updated>2021-09-14T13:05:24.311Z</updated>
   <id>https://untitledpro.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[Paper Review]&gt;Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer</title>
+    <link href="https://untitledpro.github.io/2021/09/14/PR-ClassifierWeightTransformer/"/>
+    <id>https://untitledpro.github.io/2021/09/14/PR-ClassifierWeightTransformer/</id>
+    <published>2021-09-14T12:24:26.337Z</published>
+    <updated>2021-09-14T13:05:24.311Z</updated>
+    
+    <content type="html"><![CDATA[<!-- 简介(more/excerpt) --><p>2021 arXive Preprint; University of Surrey</p><p>小样本语义分割通常包括：CNN Encoder，CNN Decoder and a simple Classifier(用来分辨前景和背景)。大部分现存的方法都是通过元学习训练三个组成部分。但是因为样本不足的问题，这种方法通常面临巨大的挑战。这篇论文中，我们提出简化元学习的任务，即：仅仅关注于最简单的组成部分——分类器，而让 Encoder, Decoder 通过预训练得到并在后续训练中固定(freeze)。我们假设，如果我们在一组具有充足标注的不同类别上预训练一个现成的分割模型，那么 Encoder 和 Decoder 就可以提取<strong>适用于任何类别</strong>的<strong>大量</strong>的<strong>具有辨识性</strong>的特征，那么后续元学习阶段的调整就显得多余。同时，在分类器的元训练阶段，我们引入了Classifier Weight Transformer(CWT)模块，用于以归纳的方式动态调整在 Support Set 上训练的分类器的权重以适应Query Set 中的每个图像。在两个基准数据集上的大量实验表明，我们的方法不仅简洁，而且在精度上胜过目前的SOTA方法。</p><span id="more"></span><!-- content --><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><h3 id="目前可用标签"><a href="#目前可用标签" class="headerlink" title="目前可用标签"></a>目前可用标签</h3><ul><li><p>Iterator</p></li><li><p>Iterable</p></li><li><p>Container</p></li><li><p>generator</p></li><li><p>Pytorch</p></li><li><p>Python</p></li><li><p>Dataset</p></li></ul><!-- 文献阅读  --><ul><li>PaperReview</li><li>Segmentation</li><li>Preprint</li></ul><!-- 其他 --><ul><li><p>Essay</p></li><li><p>BlogIssue</p></li></ul><h3 id="可用目录"><a href="#可用目录" class="headerlink" title="可用目录"></a>可用目录</h3><ul><li>Pytorch<ul><li>Dataset</li></ul></li><li>Python</li><li>DeepLearning<ul><li>Dataset</li></ul></li><li>PaperReview<ul><li>Segmentation</li></ul></li><li>Essay</li><li>Issue</li></ul><!-- Gallary --><div class="justified-gallery"><p><img src="https://img0.baidu.com/it/u=2151136234,3513236673&fm=26&fmt=auto&gp=0.jpg" alt="pic1"><br><img src="https://img2.baidu.com/it/u=3206689113,2237998950&fm=26&fmt=auto&gp=0.jpg" alt="pic2"></p></div><!-- comment --><!--PC版/需要为每篇博客提供不同的 sid--><!-- sid Template: 20210414:name(: kwargs) --><div id="SOHUCS" sid="template"></div><script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script><script type="text/javascript">window.changyan.api.config({appid: 'cyvoWBcYh',conf: 'prod_82fb399b42af278fa503f42fe4c11ab1'});</script><!-- share button --><script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=607409f7a784de0012cc7bda&product=inline-share-buttons" async="async"></script>]]></content>
+    
+    
+    <summary type="html">&lt;!-- 简介(more/excerpt) --&gt;
+&lt;p&gt;2021 arXive Preprint; University of Surrey&lt;/p&gt;
+&lt;p&gt;小样本语义分割通常包括：CNN Encoder，CNN Decoder and a simple Classifier(用来分辨前景和背景)。大部分现存的方法都是通过元学习训练三个组成部分。但是因为样本不足的问题，这种方法通常面临巨大的挑战。这篇论文中，我们提出简化元学习的任务，即：仅仅关注于最简单的组成部分——分类器，而让 Encoder, Decoder 通过预训练得到并在后续训练中固定(freeze)。我们假设，如果我们在一组具有充足标注的不同类别上预训练一个现成的分割模型，那么 Encoder 和 Decoder 就可以提取&lt;strong&gt;适用于任何类别&lt;/strong&gt;的&lt;strong&gt;大量&lt;/strong&gt;的&lt;strong&gt;具有辨识性&lt;/strong&gt;的特征，那么后续元学习阶段的调整就显得多余。同时，在分类器的元训练阶段，我们引入了Classifier Weight Transformer(CWT)模块，用于以归纳的方式动态调整在 Support Set 上训练的分类器的权重以适应Query Set 中的每个图像。在两个基准数据集上的大量实验表明，我们的方法不仅简洁，而且在精度上胜过目前的SOTA方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="PaperReview" scheme="https://untitledpro.github.io/categories/PaperReview/"/>
+    
+    <category term="Segmentation" scheme="https://untitledpro.github.io/categories/PaperReview/Segmentation/"/>
+    
+    
+    <category term="PaperReview" scheme="https://untitledpro.github.io/tags/PaperReview/"/>
+    
+    <category term="Segmentation" scheme="https://untitledpro.github.io/tags/Segmentation/"/>
+    
+    <category term="Preprint" scheme="https://untitledpro.github.io/tags/Preprint/"/>
+    
+  </entry>
   
   <entry>
     <title>[Essay]&gt; 游戏有何价值？</title>
